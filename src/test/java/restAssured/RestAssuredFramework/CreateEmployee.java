@@ -44,6 +44,7 @@ public class CreateEmployee {
 		RestAssured.baseURI=OR.getProperty("BaseURI");
 		 Response res = given().
 				contentType(ContentType.JSON).
+				
 		
 		body(/*"{\"name\":\"testvinod\",\"salary\":\"123\",\"age\":\"23\"}"*/ p).
 		
