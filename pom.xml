@@ -8,6 +8,8 @@
   <packaging>jar</packaging>
 
   <name>RestAssuredFramework</name>
+  
+  
   <url>http://maven.apache.org</url>
 
   <properties>
